@@ -13,7 +13,6 @@ genU8g2FontCode --help
 ```
 
 ```text
-
 Usage of genU8g2FontCode:
   -bdf-font string
         file path of bdf font (default "default_font.bdf")
@@ -23,5 +22,4 @@ Usage of genU8g2FontCode:
         font name in export c file (default "dextercai_momentum_utils_custom_font")
   -unicode-list-file string
         file contained unicode list (default "default_unicode.txt")
-
 ```
