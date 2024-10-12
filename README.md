@@ -39,3 +39,6 @@ Usage of filterAllHans:
   -src-path string
         source code path (default "./src/")
 ```
+
+## Reference
+- https://github.com/olikraus/u8g2
