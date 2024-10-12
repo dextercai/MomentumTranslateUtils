@@ -7,9 +7,9 @@
 ### BDF字库裁剪与u8g2代码生成工具
 
 ```bash
+CGO_ENABLED=1
 go install github.com/dextercai/MomentumTranslateUtils/cmd/genU8g2FontCode@main
 genU8g2FontCode --help
-
 ```
 
 ```text
@@ -22,4 +22,20 @@ Usage of genU8g2FontCode:
         font name in export c file (default "dextercai_momentum_utils_custom_font")
   -unicode-list-file string
         file contained unicode list (default "default_unicode.txt")
+```
+
+### 代码扫描及字符提取工具
+```text
+CGO_ENABLED=1
+go install github.com/dextercai/MomentumTranslateUtils/cmd/filterAllHans@main
+filterAllHans --help
+```
+
+
+```text
+Usage of filterAllHans:
+  -output-file string
+        all hans unicode output file (default "./allHansUnicode.txt")
+  -src-path string
+        source code path (default "./src/")
 ```

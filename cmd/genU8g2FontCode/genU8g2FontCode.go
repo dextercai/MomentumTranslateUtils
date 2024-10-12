@@ -21,6 +21,7 @@ func main() {
 	flag.Parse()
 
 	unicodeListFile, err := os.Open(*flagUnicodeListFilePath)
+	defer unicodeListFile.Close()
 	if err != nil {
 		log.Fatalf("error occoured when open unicode list err: %s", err)
 		return
