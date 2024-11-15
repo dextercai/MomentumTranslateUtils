@@ -1,6 +1,6 @@
 # MomentumTranslateUtils
 
-适用于 Momentum项目 汉化时的小工具
+u8g2开发时Unicode字库的适配。也适用于 Momentum 项目汉化时的工具。
 
 ## 包含
 
